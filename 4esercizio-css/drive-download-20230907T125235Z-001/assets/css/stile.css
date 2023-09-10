@@ -1,0 +1,319 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 10px;
+    line-height: 1.7;
+    background-image: url(../img/sfondo.png);
+    background-position: center center;
+    
+    
+    
+}
+
+h1{
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+
+
+
+
+/* HEADER */
+
+header{
+    text-align: center;
+    background-color: #1a93e4;
+    padding: 20px 40px;
+    margin: 0 50px;
+    border: solid 1px lightgray;
+    line-height: 30px;
+}
+
+header p{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    word-spacing: 4em;
+    margin-right: 10px;
+    
+}
+
+header a:before{
+    content: "x";
+}
+/* MAIN */
+
+
+    
+
+
+article, aside{
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article h1{
+    padding-top: 30px;
+    
+}
+
+article h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+article i{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+article p:first-of-type{
+    margin: 20px 0;
+    font-size: 1rem;
+    color: gray;
+}
+
+article ul{
+    margin-left: 20px;
+}
+
+strong{
+    font-weight: 400;
+    color: purple;
+    
+}
+
+main h2{
+    margin-top: 15px;
+}
+
+main ol{
+    margin-left: 20px;
+}
+
+main code{
+    background-color: lightgray;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: o 3px;
+}
+
+#link{
+    color:aqua
+}
+
+main iframe{
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* TABELLE */
+
+table caption{
+    font-weight: 600;
+    font-style: oblique;
+}
+
+table{
+    
+    border: solid 1.5px black;
+    table-layout: fixed;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+table th{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+table td{
+    text-align: center;
+    padding: 10px;
+}
+
+.colorate{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+/* FORM */
+
+section h2{
+    font-weight: 500;
+    font-size: x-large;
+    border: soli 1px black;
+    background-color: gray;
+    margin-right: 290px;
+    padding: 1px 10px 1px 10px;
+}
+
+section{
+    background-color: lightgrey;
+    padding: 0 0 15px 10px;
+}
+
+form input{
+    border-bottom: dashed gray;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+form button{
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* ELEMENTI NELL' ASIDE */
+
+aside div{
+    margin: 15px 0;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+aside h2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.blocco1{
+    background-color: lightgrey;
+}
+
+.blocco2{
+    background-color: lightgray;
+}
+
+.blocco3{
+    background-color: lightgray;
+}
+
+.data{
+    
+    margin-left: 220px;
+}
+
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: rgba(6, 139, 94, 0.538);
+    margin: 20px 20px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+footer a{
+    color: rgb(244, 6, 228);
+}
+
+footer p{
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+.toTop{
+    font-size: xx-large;
+    color: pink;
+    margin-left: 400px;
+   
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.toTop .far{
+    color: pink;
+}
+
+
+
+/* responsive tablet (1230px) */
+
+@media screen and (min-width: 1230px) {
+    main{
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin: 25px 20px;
+        
+    }
+    article, aside{
+    
+        width: 100%;
+        
+    }
+
+    article{
+        width: 65%;
+    }
+
+    aside{
+        width: 25%;
+    }
+
+    main section{
+        width: 500px;
+        border-radius: 20px;
+    }
+    main section h2{
+        border-radius: 20px;
+        width: 100px;
+    }
+
+    table{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
